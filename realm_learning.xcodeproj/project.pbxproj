@@ -7,64 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0473957D2369351C009FA1CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473957C2369351C009FA1CF /* AppDelegate.swift */; };
-		0473957F2369351C009FA1CF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473957E2369351C009FA1CF /* ViewController.swift */; };
-		047395822369351C009FA1CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047395802369351C009FA1CF /* Main.storyboard */; };
-		047395842369351E009FA1CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047395832369351E009FA1CF /* Assets.xcassets */; };
-		047395872369351E009FA1CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047395852369351E009FA1CF /* LaunchScreen.storyboard */; };
-		047395922369351E009FA1CF /* realm_learningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047395912369351E009FA1CF /* realm_learningTests.swift */; };
-		0473959D2369351E009FA1CF /* realm_learningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473959C2369351E009FA1CF /* realm_learningUITests.swift */; };
+		04A80B722369FF7900F3ACE2 /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A80B712369FF7900F3ACE2 /* Realm.framework */; };
+		04A80B742369FF8E00F3ACE2 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04A80B732369FF8E00F3ACE2 /* RealmSwift.framework */; };
+		04CB042E2369BA350050A172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB042D2369BA350050A172 /* AppDelegate.swift */; };
+		04CB04302369BA350050A172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB042F2369BA350050A172 /* ViewController.swift */; };
+		04CB04332369BA350050A172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB04312369BA350050A172 /* Main.storyboard */; };
+		04CB04352369BA360050A172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CB04342369BA360050A172 /* Assets.xcassets */; };
+		04CB04382369BA360050A172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04CB04362369BA360050A172 /* LaunchScreen.storyboard */; };
+		04CB04432369BA370050A172 /* realm_learningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB04422369BA370050A172 /* realm_learningTests.swift */; };
+		04CB044E2369BA370050A172 /* realm_learningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CB044D2369BA370050A172 /* realm_learningUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0473958E2369351E009FA1CF /* PBXContainerItemProxy */ = {
+		04CB043F2369BA370050A172 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 047395712369351C009FA1CF /* Project object */;
+			containerPortal = 04CB04222369BA350050A172 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 047395782369351C009FA1CF;
+			remoteGlobalIDString = 04CB04292369BA350050A172;
 			remoteInfo = realm_learning;
 		};
-		047395992369351E009FA1CF /* PBXContainerItemProxy */ = {
+		04CB044A2369BA370050A172 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 047395712369351C009FA1CF /* Project object */;
+			containerPortal = 04CB04222369BA350050A172 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 047395782369351C009FA1CF;
+			remoteGlobalIDString = 04CB04292369BA350050A172;
 			remoteInfo = realm_learning;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		047395792369351C009FA1CF /* realm_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realm_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0473957C2369351C009FA1CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0473957E2369351C009FA1CF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		047395812369351C009FA1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		047395832369351E009FA1CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		047395862369351E009FA1CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		047395882369351E009FA1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0473958D2369351E009FA1CF /* realm_learningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_learningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		047395912369351E009FA1CF /* realm_learningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_learningTests.swift; sourceTree = "<group>"; };
-		047395932369351E009FA1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		047395982369351E009FA1CF /* realm_learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_learningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0473959C2369351E009FA1CF /* realm_learningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_learningUITests.swift; sourceTree = "<group>"; };
-		0473959E2369351E009FA1CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A80B712369FF7900F3ACE2 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		04A80B732369FF8E00F3ACE2 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		04CB042A2369BA350050A172 /* realm_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realm_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB042D2369BA350050A172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04CB042F2369BA350050A172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04CB04322369BA350050A172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04CB04342369BA360050A172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04CB04372369BA360050A172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04CB04392369BA360050A172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB043E2369BA370050A172 /* realm_learningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_learningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB04422369BA370050A172 /* realm_learningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_learningTests.swift; sourceTree = "<group>"; };
+		04CB04442369BA370050A172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CB04492369BA370050A172 /* realm_learningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realm_learningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CB044D2369BA370050A172 /* realm_learningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = realm_learningUITests.swift; sourceTree = "<group>"; };
+		04CB044F2369BA370050A172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		047395762369351C009FA1CF /* Frameworks */ = {
+		04CB04272369BA350050A172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A80B742369FF8E00F3ACE2 /* RealmSwift.framework in Frameworks */,
+				04A80B722369FF7900F3ACE2 /* Realm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CB043B2369BA370050A172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0473958A2369351E009FA1CF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		047395952369351E009FA1CF /* Frameworks */ = {
+		04CB04462369BA370050A172 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +80,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		047395702369351C009FA1CF = {
+		04A80B702369FF7900F3ACE2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0473957B2369351C009FA1CF /* realm_learning */,
-				047395902369351E009FA1CF /* realm_learningTests */,
-				0473959B2369351E009FA1CF /* realm_learningUITests */,
-				0473957A2369351C009FA1CF /* Products */,
+				04A80B732369FF8E00F3ACE2 /* RealmSwift.framework */,
+				04A80B712369FF7900F3ACE2 /* Realm.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04CB04212369BA350050A172 = {
+			isa = PBXGroup;
+			children = (
+				04CB042C2369BA350050A172 /* realm_learning */,
+				04CB04412369BA370050A172 /* realm_learningTests */,
+				04CB044C2369BA370050A172 /* realm_learningUITests */,
+				04CB042B2369BA350050A172 /* Products */,
+				04A80B702369FF7900F3ACE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		0473957A2369351C009FA1CF /* Products */ = {
+		04CB042B2369BA350050A172 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				047395792369351C009FA1CF /* realm_learning.app */,
-				0473958D2369351E009FA1CF /* realm_learningTests.xctest */,
-				047395982369351E009FA1CF /* realm_learningUITests.xctest */,
+				04CB042A2369BA350050A172 /* realm_learning.app */,
+				04CB043E2369BA370050A172 /* realm_learningTests.xctest */,
+				04CB04492369BA370050A172 /* realm_learningUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0473957B2369351C009FA1CF /* realm_learning */ = {
+		04CB042C2369BA350050A172 /* realm_learning */ = {
 			isa = PBXGroup;
 			children = (
-				0473957C2369351C009FA1CF /* AppDelegate.swift */,
-				0473957E2369351C009FA1CF /* ViewController.swift */,
-				047395802369351C009FA1CF /* Main.storyboard */,
-				047395832369351E009FA1CF /* Assets.xcassets */,
-				047395852369351E009FA1CF /* LaunchScreen.storyboard */,
-				047395882369351E009FA1CF /* Info.plist */,
+				04CB042D2369BA350050A172 /* AppDelegate.swift */,
+				04CB042F2369BA350050A172 /* ViewController.swift */,
+				04CB04312369BA350050A172 /* Main.storyboard */,
+				04CB04342369BA360050A172 /* Assets.xcassets */,
+				04CB04362369BA360050A172 /* LaunchScreen.storyboard */,
+				04CB04392369BA360050A172 /* Info.plist */,
 			);
 			path = realm_learning;
 			sourceTree = "<group>";
 		};
-		047395902369351E009FA1CF /* realm_learningTests */ = {
+		04CB04412369BA370050A172 /* realm_learningTests */ = {
 			isa = PBXGroup;
 			children = (
-				047395912369351E009FA1CF /* realm_learningTests.swift */,
-				047395932369351E009FA1CF /* Info.plist */,
+				04CB04422369BA370050A172 /* realm_learningTests.swift */,
+				04CB04442369BA370050A172 /* Info.plist */,
 			);
 			path = realm_learningTests;
 			sourceTree = "<group>";
 		};
-		0473959B2369351E009FA1CF /* realm_learningUITests */ = {
+		04CB044C2369BA370050A172 /* realm_learningUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0473959C2369351E009FA1CF /* realm_learningUITests.swift */,
-				0473959E2369351E009FA1CF /* Info.plist */,
+				04CB044D2369BA370050A172 /* realm_learningUITests.swift */,
+				04CB044F2369BA370050A172 /* Info.plist */,
 			);
 			path = realm_learningUITests;
 			sourceTree = "<group>";
@@ -128,13 +144,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		047395782369351C009FA1CF /* realm_learning */ = {
+		04CB04292369BA350050A172 /* realm_learning */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 047395A12369351E009FA1CF /* Build configuration list for PBXNativeTarget "realm_learning" */;
+			buildConfigurationList = 04CB04522369BA370050A172 /* Build configuration list for PBXNativeTarget "realm_learning" */;
 			buildPhases = (
-				047395752369351C009FA1CF /* Sources */,
-				047395762369351C009FA1CF /* Frameworks */,
-				047395772369351C009FA1CF /* Resources */,
+				04CB04262369BA350050A172 /* Sources */,
+				04CB04272369BA350050A172 /* Frameworks */,
+				04CB04282369BA350050A172 /* Resources */,
+				04A80B752369FFF400F3ACE2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -142,69 +159,69 @@
 			);
 			name = realm_learning;
 			productName = realm_learning;
-			productReference = 047395792369351C009FA1CF /* realm_learning.app */;
+			productReference = 04CB042A2369BA350050A172 /* realm_learning.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0473958C2369351E009FA1CF /* realm_learningTests */ = {
+		04CB043D2369BA370050A172 /* realm_learningTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 047395A42369351E009FA1CF /* Build configuration list for PBXNativeTarget "realm_learningTests" */;
+			buildConfigurationList = 04CB04552369BA370050A172 /* Build configuration list for PBXNativeTarget "realm_learningTests" */;
 			buildPhases = (
-				047395892369351E009FA1CF /* Sources */,
-				0473958A2369351E009FA1CF /* Frameworks */,
-				0473958B2369351E009FA1CF /* Resources */,
+				04CB043A2369BA370050A172 /* Sources */,
+				04CB043B2369BA370050A172 /* Frameworks */,
+				04CB043C2369BA370050A172 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0473958F2369351E009FA1CF /* PBXTargetDependency */,
+				04CB04402369BA370050A172 /* PBXTargetDependency */,
 			);
 			name = realm_learningTests;
 			productName = realm_learningTests;
-			productReference = 0473958D2369351E009FA1CF /* realm_learningTests.xctest */;
+			productReference = 04CB043E2369BA370050A172 /* realm_learningTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		047395972369351E009FA1CF /* realm_learningUITests */ = {
+		04CB04482369BA370050A172 /* realm_learningUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 047395A72369351E009FA1CF /* Build configuration list for PBXNativeTarget "realm_learningUITests" */;
+			buildConfigurationList = 04CB04582369BA370050A172 /* Build configuration list for PBXNativeTarget "realm_learningUITests" */;
 			buildPhases = (
-				047395942369351E009FA1CF /* Sources */,
-				047395952369351E009FA1CF /* Frameworks */,
-				047395962369351E009FA1CF /* Resources */,
+				04CB04452369BA370050A172 /* Sources */,
+				04CB04462369BA370050A172 /* Frameworks */,
+				04CB04472369BA370050A172 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0473959A2369351E009FA1CF /* PBXTargetDependency */,
+				04CB044B2369BA370050A172 /* PBXTargetDependency */,
 			);
 			name = realm_learningUITests;
 			productName = realm_learningUITests;
-			productReference = 047395982369351E009FA1CF /* realm_learningUITests.xctest */;
+			productReference = 04CB04492369BA370050A172 /* realm_learningUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		047395712369351C009FA1CF /* Project object */ = {
+		04CB04222369BA350050A172 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "鈴木公章";
 				TargetAttributes = {
-					047395782369351C009FA1CF = {
-						CreatedOnToolsVersion = 10.2.1;
+					04CB04292369BA350050A172 = {
+						CreatedOnToolsVersion = 10.3;
 					};
-					0473958C2369351E009FA1CF = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 047395782369351C009FA1CF;
+					04CB043D2369BA370050A172 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 04CB04292369BA350050A172;
 					};
-					047395972369351E009FA1CF = {
-						CreatedOnToolsVersion = 10.2.1;
-						TestTargetID = 047395782369351C009FA1CF;
+					04CB04482369BA370050A172 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 04CB04292369BA350050A172;
 					};
 				};
 			};
-			buildConfigurationList = 047395742369351C009FA1CF /* Build configuration list for PBXProject "realm_learning" */;
+			buildConfigurationList = 04CB04252369BA350050A172 /* Build configuration list for PBXProject "realm_learning" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +229,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 047395702369351C009FA1CF;
-			productRefGroup = 0473957A2369351C009FA1CF /* Products */;
+			mainGroup = 04CB04212369BA350050A172;
+			productRefGroup = 04CB042B2369BA350050A172 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				047395782369351C009FA1CF /* realm_learning */,
-				0473958C2369351E009FA1CF /* realm_learningTests */,
-				047395972369351E009FA1CF /* realm_learningUITests */,
+				04CB04292369BA350050A172 /* realm_learning */,
+				04CB043D2369BA370050A172 /* realm_learningTests */,
+				04CB04482369BA370050A172 /* realm_learningUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		047395772369351C009FA1CF /* Resources */ = {
+		04CB04282369BA350050A172 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047395872369351E009FA1CF /* LaunchScreen.storyboard in Resources */,
-				047395842369351E009FA1CF /* Assets.xcassets in Resources */,
-				047395822369351C009FA1CF /* Main.storyboard in Resources */,
+				04CB04382369BA360050A172 /* LaunchScreen.storyboard in Resources */,
+				04CB04352369BA360050A172 /* Assets.xcassets in Resources */,
+				04CB04332369BA350050A172 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0473958B2369351E009FA1CF /* Resources */ = {
+		04CB043C2369BA370050A172 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		047395962369351E009FA1CF /* Resources */ = {
+		04CB04472369BA370050A172 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,60 +268,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04A80B752369FFF400F3ACE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		047395752369351C009FA1CF /* Sources */ = {
+		04CB04262369BA350050A172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0473957F2369351C009FA1CF /* ViewController.swift in Sources */,
-				0473957D2369351C009FA1CF /* AppDelegate.swift in Sources */,
+				04CB04302369BA350050A172 /* ViewController.swift in Sources */,
+				04CB042E2369BA350050A172 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		047395892369351E009FA1CF /* Sources */ = {
+		04CB043A2369BA370050A172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				047395922369351E009FA1CF /* realm_learningTests.swift in Sources */,
+				04CB04432369BA370050A172 /* realm_learningTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		047395942369351E009FA1CF /* Sources */ = {
+		04CB04452369BA370050A172 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0473959D2369351E009FA1CF /* realm_learningUITests.swift in Sources */,
+				04CB044E2369BA370050A172 /* realm_learningUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0473958F2369351E009FA1CF /* PBXTargetDependency */ = {
+		04CB04402369BA370050A172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 047395782369351C009FA1CF /* realm_learning */;
-			targetProxy = 0473958E2369351E009FA1CF /* PBXContainerItemProxy */;
+			target = 04CB04292369BA350050A172 /* realm_learning */;
+			targetProxy = 04CB043F2369BA370050A172 /* PBXContainerItemProxy */;
 		};
-		0473959A2369351E009FA1CF /* PBXTargetDependency */ = {
+		04CB044B2369BA370050A172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 047395782369351C009FA1CF /* realm_learning */;
-			targetProxy = 047395992369351E009FA1CF /* PBXContainerItemProxy */;
+			target = 04CB04292369BA350050A172 /* realm_learning */;
+			targetProxy = 04CB044A2369BA370050A172 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		047395802369351C009FA1CF /* Main.storyboard */ = {
+		04CB04312369BA350050A172 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				047395812369351C009FA1CF /* Base */,
+				04CB04322369BA350050A172 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		047395852369351E009FA1CF /* LaunchScreen.storyboard */ = {
+		04CB04362369BA360050A172 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				047395862369351E009FA1CF /* Base */,
+				04CB04372369BA360050A172 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +351,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0473959F2369351E009FA1CF /* Debug */ = {
+		04CB04502369BA370050A172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -373,7 +412,7 @@
 			};
 			name = Debug;
 		};
-		047395A02369351E009FA1CF /* Release */ = {
+		04CB04512369BA370050A172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -418,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -428,12 +467,16 @@
 			};
 			name = Release;
 		};
-		047395A22369351E009FA1CF /* Debug */ = {
+		04CB04532369BA370050A172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T437ZHEFQU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = realm_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,12 +489,16 @@
 			};
 			name = Debug;
 		};
-		047395A32369351E009FA1CF /* Release */ = {
+		04CB04542369BA370050A172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T437ZHEFQU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = realm_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,7 +511,7 @@
 			};
 			name = Release;
 		};
-		047395A52369351E009FA1CF /* Debug */ = {
+		04CB04562369BA370050A172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -485,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		047395A62369351E009FA1CF /* Release */ = {
+		04CB04572369BA370050A172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -506,7 +553,7 @@
 			};
 			name = Release;
 		};
-		047395A82369351E009FA1CF /* Debug */ = {
+		04CB04592369BA370050A172 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +573,7 @@
 			};
 			name = Debug;
 		};
-		047395A92369351E009FA1CF /* Release */ = {
+		04CB045A2369BA370050A172 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -549,43 +596,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		047395742369351C009FA1CF /* Build configuration list for PBXProject "realm_learning" */ = {
+		04CB04252369BA350050A172 /* Build configuration list for PBXProject "realm_learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0473959F2369351E009FA1CF /* Debug */,
-				047395A02369351E009FA1CF /* Release */,
+				04CB04502369BA370050A172 /* Debug */,
+				04CB04512369BA370050A172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		047395A12369351E009FA1CF /* Build configuration list for PBXNativeTarget "realm_learning" */ = {
+		04CB04522369BA370050A172 /* Build configuration list for PBXNativeTarget "realm_learning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				047395A22369351E009FA1CF /* Debug */,
-				047395A32369351E009FA1CF /* Release */,
+				04CB04532369BA370050A172 /* Debug */,
+				04CB04542369BA370050A172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		047395A42369351E009FA1CF /* Build configuration list for PBXNativeTarget "realm_learningTests" */ = {
+		04CB04552369BA370050A172 /* Build configuration list for PBXNativeTarget "realm_learningTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				047395A52369351E009FA1CF /* Debug */,
-				047395A62369351E009FA1CF /* Release */,
+				04CB04562369BA370050A172 /* Debug */,
+				04CB04572369BA370050A172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		047395A72369351E009FA1CF /* Build configuration list for PBXNativeTarget "realm_learningUITests" */ = {
+		04CB04582369BA370050A172 /* Build configuration list for PBXNativeTarget "realm_learningUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				047395A82369351E009FA1CF /* Debug */,
-				047395A92369351E009FA1CF /* Release */,
+				04CB04592369BA370050A172 /* Debug */,
+				04CB045A2369BA370050A172 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 047395712369351C009FA1CF /* Project object */;
+	rootObject = 04CB04222369BA350050A172 /* Project object */;
 }
